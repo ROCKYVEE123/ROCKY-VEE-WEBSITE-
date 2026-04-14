@@ -2,16 +2,70 @@
 <html>
 <head>
 <title>ROCKY VEE</title>
+
 <style>
-body{font-family:Arial;background:#f4f4f4;margin:0}
-header{background:#198754;color:white;text-align:center;padding:20px}
-.hero img{width:100%}
-section{padding:20px;background:white;margin:10px;border-radius:10px}
-.btn{background:#25D366;color:white;padding:10px;text-decoration:none;border-radius:5px}
+body{
+  font-family:Arial;
+  background:#f4f4f4;
+  margin:0;
+}
+
+header{
+  background:linear-gradient(135deg,#198754,#14532d);
+  color:white;
+  text-align:center;
+  padding:25px;
+}
+
+.hero img{
+  width:100%;
+}
+
+section{
+  padding:20px;
+  background:white;
+  margin:15px;
+  border-radius:10px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+.price{
+  color:#198754;
+  font-size:22px;
+  font-weight:bold;
+}
+
+.btn{
+  display:inline-block;
+  margin-top:10px;
+  background:#25D366;
+  color:white;
+  padding:12px;
+  text-decoration:none;
+  border-radius:6px;
+}
+
+.promo{
+  background:red;
+  color:white;
+  text-align:center;
+  padding:10px;
+  font-weight:bold;
+  animation:blink 1s infinite;
+}
+
+@keyframes blink{
+  0%{opacity:1}
+  50%{opacity:0.3}
+  100%{opacity:1}
+}
 </style>
+
 </head>
 
 <body>
+
+<div class="promo">🔥 PROMO PRICE ₦200 🔥</div>
 
 <header>
 <h1>ROCKY VEE PLANTAIN CHIPS</h1>
@@ -23,41 +77,22 @@ section{padding:20px;background:white;margin:10px;border-radius:10px}
 </div>
 
 <section>
-<h2>Buy Now</h2>
-<p>Price: ₦200</p>
+<h2>Spicy Plantain Chips</h2>
+<p class="price">₦200</p>
 <a class="btn" href="https://wa.me/2349136574191">Order on WhatsApp</a>
 </section>
-<!DOCTYPE html>
-<html>
-<head>
-<title>ROCKY VEE</title>
-<style>
-body{font-family:Arial;background:#f4f4f4;margin:0}
-header{background:#198754;color:white;text-align:center;padding:20px}
-.hero img{width:100%}
-section{padding:20px;background:white;margin:10px;border-radius:10px}
-.btn{background:#25D366;color:white;padding:10px;text-decoration:none;border-radius:5px}
-</style>
-</head>
-
-<body>
-
-<header>
-<h1>ROCKY VEE PLANTAIN CHIPS</h1>
-<p>By Olaitan Kehinde | JSS 3C</p>
-</header>
-
-<div class="hero">
-<img src="chips.jpg">
-</div>
 
 <section>
-<h2>Buy Now</h2>
-<p>Price: ₦200</p>
+<h2>Sweet Plantain Chips</h2>
+<p class="price">₦200</p>
 <a class="btn" href="https://wa.me/2349136574191">Order on WhatsApp</a>
 </section>
 
-</body>
-</html>
+<section>
+<h2>Contact</h2>
+<p>Phone: 09136574191</p>
+<a class="btn" href="https://wa.me/2349136574191">Chat on WhatsApp</a>
+</section>
+
 </body>
 </html>
